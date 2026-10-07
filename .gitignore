@@ -1,0 +1,14 @@
+# Archivos objeto
+*.o
+*.obj
+
+# Bibliotecas estáticas y dinámicas
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# Binarios o ejecutables comunes sin extensión (Linux / macOS)
+# Puedes añadir los nombres específicos de tus ejecutables:
+app
