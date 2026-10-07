@@ -1,5 +1,8 @@
 #include<stdlib.h>
+void hola(){
+  printf("Hola mundo desde una funcion void\n");
+}
 int main(){
-  printf("hola mundo\n");
+  hola();
   return 0;
 }
