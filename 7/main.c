@@ -1,10 +1,17 @@
-#include<stdlib.h>
+#include<stdio.h>
 
-void saludar(int n){
-  for(int i=1;i<=n;i++)
-  printf("hola mundo: %d \n", i);
+typedef struct{
+  char name[50];
+  int  age;
+}Person;
+
+void birthday(Person *p){
+  p->age++;
 }
+
 int main(){
-  saludar(10);
+  Person p = {"José", 31};
+  birthday(&p);
+  printf("%d\n", p.age);
   return 0;
 }
